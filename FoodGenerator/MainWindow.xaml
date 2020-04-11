@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FoodGenerator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Food Generator" Height="900
+        " Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="2"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
     </Grid>
 </Window>

@@ -9,7 +9,7 @@ namespace FoodGenerator
     public enum typ { Breakfast, Snack, Lunch, Dinner };
     public class Food : Type
     {
-        public typ Typ { get; set; }
+        public typ FoodType { get; set; }
 
         public string Name { get; set; }
 
@@ -20,7 +20,7 @@ namespace FoodGenerator
         public static Food Create(typ typ, string name, string ingredients, string reciepe)
         {
             Food food = new Food();
-            food.Typ = typ;
+            food.FoodType = typ;
             food.Name = name;
             food.Ingredients = ingredients;
             food.Reciepe = reciepe;

@@ -23,6 +23,9 @@ namespace FoodGenerator
         public MainWindow()
         {
             InitializeComponent();
+
+            Food example = Food.Create(typ.Breakfast, "test", "bla bla bla", "udělej to tak jak se to dělá");
+            StorageManager
         }
     }
 }

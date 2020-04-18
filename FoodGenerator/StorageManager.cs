@@ -22,13 +22,30 @@ namespace FoodGenerator
 
         private static void init()
         {
+            try
+            {
+                System.Xml.Serialization.XmlSerializer reader =
+       new System.Xml.Serialization.XmlSerializer(typeof(Storage));
+                System.IO.StreamReader file = new System.IO.StreamReader(storagePath);
+                StorageManager.storage = (Storage)reader.Deserialize(file);
+                file.Close();
+            }
+            catch
+            {
+                createAndInit();
+            }
+        }
 
+        private static void createAndInit()
+        {
+            save();
             System.Xml.Serialization.XmlSerializer reader =
-         new System.Xml.Serialization.XmlSerializer(typeof(Storage));
+ new System.Xml.Serialization.XmlSerializer(typeof(Storage));
             System.IO.StreamReader file = new System.IO.StreamReader(storagePath);
             StorageManager.storage = (Storage)reader.Deserialize(file);
             file.Close();
-       }
+
+        }
         public static void save()
         {
 
@@ -56,3 +73,4 @@ namespace FoodGenerator
     }
 
 }
+

@@ -13,7 +13,11 @@ namespace FoodGenerator
         {
             Foods = new List<Food>();
         }
-    //metoda pro random generování
+        //metoda pro random generování
+        void Generate() 
+        { 
+        
+        }
     //vyfiltorvat podle typu 
     
     }

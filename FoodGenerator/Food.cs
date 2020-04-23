@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace FoodGenerator
 {
-    public enum typ { Breakfast, Snack, Lunch, Dinner };
+    public enum FoodType { Breakfast, Snack, Lunch, Dinner };
     public class Food : Type
     {
-        public typ FoodType { get; set; }
+        public FoodType Typ { get; set; }
 
         public string Name { get; set; }
 
-        public string Ingredients { get; set; }
+        public string[] Ingredients { get; set; }
 
         public string Reciepe { get; set; }
 
-        public static Food Create(typ typ, string name, string ingredients, string reciepe)
+        public static Food Create(FoodType FoodType, string name, string[] ingredients, string reciepe)
         {
             Food food = new Food();
-            food.FoodType = typ;
+            food.Typ = FoodType;
             food.Name = name;
             food.Ingredients = ingredients;
             food.Reciepe = reciepe;

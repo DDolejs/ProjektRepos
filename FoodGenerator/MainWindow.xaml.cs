@@ -20,12 +20,16 @@ namespace FoodGenerator
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
 
-            Food example = Food.Create(typ.Breakfast, "test", "bla bla bla", "udělej to tak jak se to dělá");
-            StorageManager
+            Food example = Food.Create(FoodType.Breakfast, "test", new[] { "mouka", "sůl" }, "tohle..tamto...");
+
+            StorageManager.getStorage().Foods.Add(example);
+            StorageManager.save();
+
         }
     }
 }

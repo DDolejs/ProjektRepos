@@ -17,13 +17,16 @@ namespace FoodGenerator
 
         public string Reciepe { get; set; }
 
-        public static Food Create(FoodType FoodType, string name, string[] ingredients, string reciepe)
+        public int CaloryCount { get; set; }
+
+        public static Food Create(FoodType FoodType, string name, string[] ingredients, string reciepe, int calorycount)
         {
             Food food = new Food();
             food.Typ = FoodType;
             food.Name = name;
             food.Ingredients = ingredients;
             food.Reciepe = reciepe;
+            food.CaloryCount = calorycount;
 
             return food;
         }

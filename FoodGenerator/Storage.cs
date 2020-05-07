@@ -13,8 +13,8 @@ namespace FoodGenerator
         {
             Foods = new List<Food>();
         }
-        //metoda pro random generování
-        Food FindRandomFiltered(FoodType foodType)
+        //metoda pro random hledání
+        public Food FindRandomFiltered(FoodType foodType)
         {
             Random ran = new Random();
             List<Food> search = findByType(foodType);

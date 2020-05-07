@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Food Generator" Height="650
         " Width="500">
-    <Grid>
+    <Grid Name="grid">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="0,5*"></ColumnDefinition>
             <ColumnDefinition Width="1*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
@@ -19,12 +19,29 @@
             <RowDefinition Height="1*"></RowDefinition>
             <RowDefinition Height="1*"></RowDefinition>
             <RowDefinition Height="1*"></RowDefinition>
-            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button Grid.Row="7" Content="OK" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" />
-        <Viewbox>
-            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="FoodGen" Grid.Row="1" FontFamily="Arial Black"/>
+        <Button x:Name="ok" Click="ok_Click" Cursor="Hand" Grid.Row="7" Content="OK" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" Grid.ColumnSpan="2"/>
+        <Viewbox Grid.Row="0" Grid.ColumnSpan="2">
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="FoodGen" Grid.Column="1" Grid.ColumnSpan="2" FontFamily="Arial Black"/>
         </Viewbox>
-        
+        <CheckBox Checked="breakfastCheck_Checked"  x:Name="breakfastCheck" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center"/>
+        <CheckBox Checked="break1Check_Checked"  x:Name="break1Check" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center"/>
+        <CheckBox Checked="lunchCheck_Checked" x:Name="lunchCheck" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center"/>
+        <CheckBox Checked="break2Check_Checked" x:Name="break2Check" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="4" VerticalAlignment="Center"/>
+        <CheckBox Checked="dinnerCheck_Checked" x:Name="dinnerCheck" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="5" VerticalAlignment="Center"/>
+        <Label x:Name="breakfastTitle" Content="Breakfast" HorizontalAlignment="Left"  Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="break1Title" Content="1st Break" HorizontalAlignment="Left"  Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lunchTitle" Content="Lunch" HorizontalAlignment="Left"  Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="break2Title" Content="2nd Break" HorizontalAlignment="Left"  Grid.Row="4" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="dinnerTitle" Content="Dinner" HorizontalAlignment="Left"  Grid.Row="5" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="breakfast" Margin="0,25,0,0" Content="Breakfast" HorizontalAlignment="Stretch"  Grid.Row="1" VerticalAlignment="Top" />
+        <Label x:Name="break1" Margin="0,25,0,0" Content="1st Break" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="Top" />
+        <Label x:Name="lunch" Margin="0,25,0,0" Content="Lunch" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Top" />
+        <Label x:Name="break2" Margin="0,25,0,0" Content="2nd Break" HorizontalAlignment="Stretch"  Grid.Row="4" VerticalAlignment="Top" />
+        <Label x:Name="dinner" Margin="0,25,0,0" Content="Dinner" HorizontalAlignment="Stretch"  Grid.Row="5" VerticalAlignment="Top" />
+
+
+
     </Grid>
 </Window>

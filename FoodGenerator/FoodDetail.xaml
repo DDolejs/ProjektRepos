@@ -1,0 +1,30 @@
+﻿<Window x:Class="FoodGenerator.FoodDetail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodGenerator"
+        mc:Ignorable="d"
+        Title="FoodInfo" Height="650" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="0.15*"></RowDefinition>
+            <RowDefinition Height="0.25*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Row="0" VerticalAlignment="Stretch" HorizontalAlignment="Left">
+            <Label x:Name="foodName" Grid.Row="0" FontFamily="Arial Black" Content="Food Name"></Label>
+        </Viewbox>
+        <Label Content="Ingredients" Grid.Row="1" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left"></Label>
+        <TextBlock Margin="0,20,0,0" x:Name="foodIngredients" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment ="Left" Text="" TextWrapping="Wrap"></TextBlock>
+        <Label Content="How to:" Grid.Row="2" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left"></Label>
+        <TextBlock Margin="0,20,0,0" x:Name="foodGuide" Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left"  Text="do this and that" ></TextBlock>
+        <Viewbox Grid.Row="3" HorizontalAlignment="Left" Stretch="Uniform">
+            <Label Grid.Row="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="foodCaloryCount" Content="Total Calories: x"></Label>
+        </Viewbox>
+            <Button Click="Button_Click" Grid.Row="4" Content="Close" ></Button>
+        
+    </Grid>
+</Window>

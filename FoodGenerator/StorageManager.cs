@@ -17,23 +17,24 @@ namespace FoodGenerator
             {
                 init();
             }
+
+            if(storage == null)
+            {
+                throw new System.InvalidOperationException("Storage cant be iniialized");
+            }
+
             return storage;
         }
 
         private static void init()
         {
-            try
-            {
+          
                 System.Xml.Serialization.XmlSerializer reader =
        new System.Xml.Serialization.XmlSerializer(typeof(Storage));
                 System.IO.StreamReader file = new System.IO.StreamReader(storagePath);
                 StorageManager.storage = (Storage)reader.Deserialize(file);
                 file.Close();
-            }
-            catch
-            {
-                createAndInit();
-            }
+          
         }
 
         private static void createAndInit()

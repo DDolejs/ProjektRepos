@@ -19,6 +19,7 @@ namespace FoodGenerator
             Random ran = new Random();
             List<Food> search = findByType(foodType);
             int index = ran.Next(search.Count);
+            int cnt = search.Count;
 
             return search[index];
 
@@ -38,6 +39,7 @@ namespace FoodGenerator
 
             return results;
         }
+
     }
 
 }

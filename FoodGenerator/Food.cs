@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FoodGenerator
 {
-    public enum FoodType { Breakfast, Snack, Lunch, Dinner };
+    public enum FoodType { Breakfast, Snack, Lunch, Dinner, NoType };
     public class Food : Type
     {
         public FoodType Typ { get; set; }

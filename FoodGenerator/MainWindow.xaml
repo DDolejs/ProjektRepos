@@ -22,7 +22,8 @@
             <RowDefinition Height="1*"></RowDefinition>
             <RowDefinition Height="0.5*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button x:Name="ok" Click="ok_Click" Cursor="Hand" Grid.Row="7" Content="OK" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" Grid.ColumnSpan="2"/>
+        <Button x:Name="ok" Click="ok_Click" Cursor="Hand" Grid.Row="7" Content="OK" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" Grid.ColumnSpan="2" Grid.Column="0"/>
+
         <Viewbox Grid.Row="0" Grid.ColumnSpan="2">
             <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="FoodGen" Grid.Column="1" Grid.ColumnSpan="2" FontFamily="Arial Black"/>
         </Viewbox>
@@ -31,16 +32,16 @@
         <CheckBox Checked="lunchCheck_Checked" x:Name="lunchCheck" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center"/>
         <CheckBox Checked="break2Check_Checked" x:Name="break2Check" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="4" VerticalAlignment="Center"/>
         <CheckBox Checked="dinnerCheck_Checked" x:Name="dinnerCheck" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="5" VerticalAlignment="Center"/>
-        <Label Cursor="Hand" MouseLeftButtonDown="breakfast_MouseLeftButtonDown" x:Name="breakfastTitle" Content="Breakfast" HorizontalAlignment="Left"  Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Cursor="Hand" MouseLeftButtonDown="break1_MouseLeftButtonDown" x:Name="break1Title" Content="1st Break" HorizontalAlignment="Left"  Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Cursor="Hand" MouseLeftButtonDown="lunch_MouseLeftButtonDown" x:Name="lunchTitle" Content="Lunch" HorizontalAlignment="Left"  Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Cursor="Hand" MouseLeftButtonDown="break2_MouseLeftButtonDown" x:Name="break2Title" Content="2nd Break" HorizontalAlignment="Left"  Grid.Row="4" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Cursor="Hand" MouseLeftButtonDown="dinner_MouseLeftButtonDown" x:Name="dinnerTitle" Content="Dinner" HorizontalAlignment="Left"  Grid.Row="5" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Cursor="Hand" MouseLeftButtonDown="breakfast_MouseLeftButtonDown" x:Name="breakfast" Margin="0,25,0,0" Content="Breakfast" HorizontalAlignment="Stretch"  Grid.Row="1" VerticalAlignment="Top" />
-        <Label Cursor="Hand" MouseLeftButtonDown="break1_MouseLeftButtonDown" x:Name="break1" Margin="0,25,0,0" Content="1st Break" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="Top" />
-        <Label Cursor="Hand" MouseLeftButtonDown="lunch_MouseLeftButtonDown" x:Name="lunch" Margin="0,25,0,0" Content="Lunch" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Top" />
-        <Label Cursor="Hand" MouseLeftButtonDown="break2_MouseLeftButtonDown" x:Name="break2" Margin="0,25,0,0" Content="2nd Break" HorizontalAlignment="Stretch"  Grid.Row="4" VerticalAlignment="Top" />
-        <Label Cursor="Hand" MouseLeftButtonDown="dinner_MouseLeftButtonDown" x:Name="dinner" Margin="0,25,0,0" Content="Dinner" HorizontalAlignment="Stretch"  Grid.Row="5" VerticalAlignment="Top" />
+        <Label Cursor="Hand" MouseLeftButtonDown="breakfast_MouseLeftButtonDown" MouseRightButtonDown="breakfastTitle_MouseRightButtonDown" x:Name="breakfastTitle" Content="Breakfast" HorizontalAlignment="Left"  Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Cursor="Hand" MouseLeftButtonDown="break1_MouseLeftButtonDown" MouseRightButtonDown="break1Title_MouseRightButtonDown" x:Name="break1Title" Content="1st Break" HorizontalAlignment="Left"  Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Cursor="Hand" MouseLeftButtonDown="lunch_MouseLeftButtonDown" MouseRightButtonDown="lunchTitle_MouseRightButtonDown" x:Name="lunchTitle" Content="Lunch" HorizontalAlignment="Left"  Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Cursor="Hand" MouseLeftButtonDown="break2_MouseLeftButtonDown" MouseRightButtonDown="break2Title_MouseRightButtonDown" x:Name="break2Title" Content="2nd Break" HorizontalAlignment="Left"  Grid.Row="4" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Cursor="Hand" MouseLeftButtonDown="dinner_MouseLeftButtonDown" MouseRightButtonDown="dinnerTitle_MouseRightButtonDown" x:Name="dinnerTitle" Content="Dinner" HorizontalAlignment="Left"  Grid.Row="5" Grid.ColumnSpan="2" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Cursor="Hand" MouseLeftButtonDown="breakfast_MouseLeftButtonDown" MouseRightButtonDown="breakfastTitle_MouseRightButtonDown" x:Name="breakfast" Margin="0,25,0,0" Content="Breakfast" HorizontalAlignment="Stretch"  Grid.Row="1" VerticalAlignment="Top" />
+        <Label Cursor="Hand" MouseLeftButtonDown="break1_MouseLeftButtonDown" MouseRightButtonDown="break1Title_MouseRightButtonDown" x:Name="break1" Margin="0,25,0,0" Content="1st Break" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="Top" />
+        <Label Cursor="Hand" MouseLeftButtonDown="lunch_MouseLeftButtonDown" MouseRightButtonDown="lunchTitle_MouseRightButtonDown" x:Name="lunch" Margin="0,25,0,0" Content="Lunch" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Top" />
+        <Label Cursor="Hand" MouseLeftButtonDown="break2_MouseLeftButtonDown" MouseRightButtonDown="break2Title_MouseRightButtonDown" x:Name="break2" Margin="0,25,0,0" Content="2nd Break" HorizontalAlignment="Stretch"  Grid.Row="4" VerticalAlignment="Top" />
+        <Label Cursor="Hand" MouseLeftButtonDown="dinner_MouseLeftButtonDown" MouseRightButtonDown="dinnerTitle_MouseRightButtonDown" x:Name="dinner" Margin="0,25,0,0" Content="Dinner" HorizontalAlignment="Stretch"  Grid.Row="5" VerticalAlignment="Top" />
 
 
     </Grid>

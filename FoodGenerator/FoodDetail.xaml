@@ -8,19 +8,25 @@
         Title="FoodInfo" Height="650" Width="600">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.25*"></RowDefinition>
+            <RowDefinition Height="0.2*"></RowDefinition>
+            <RowDefinition Height="0.6*"></RowDefinition>
             <RowDefinition Height="0.5*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="0.15*"></RowDefinition>
+            <RowDefinition Height="0.09*"></RowDefinition>
             <RowDefinition Height="0.25*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Viewbox Grid.Row="0" VerticalAlignment="Stretch" HorizontalAlignment="Left">
+        <Viewbox  Grid.Row="0" VerticalAlignment="Stretch" HorizontalAlignment="Left">
             <Label x:Name="foodName" Grid.Row="0" FontFamily="Arial Black" Content="Food Name"></Label>
         </Viewbox>
         <Label Content="Ingredients" Grid.Row="1" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left"></Label>
-        <TextBlock Margin="0,20,0,0" x:Name="foodIngredients" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment ="Left" Text="" TextWrapping="Wrap"></TextBlock>
+        <Viewbox Margin="0,15,0,0" Grid.Row="1" StretchDirection="DownOnly"  Stretch="Uniform" HorizontalAlignment="Left" VerticalAlignment="Top">
+         <TextBlock Margin="0,15,0,0" x:Name="foodIngredients" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment ="Left" Text="" TextWrapping="Wrap"></TextBlock>
+        </Viewbox>
+       
         <Label Content="How to:" Grid.Row="2" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left"></Label>
-        <TextBlock Margin="0,20,0,0" x:Name="foodGuide" Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left"  Text="do this and that" ></TextBlock>
+        <Viewbox Margin="0,10,0,0" Grid.Row="2" StretchDirection="DownOnly" Stretch="Uniform" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBlock Margin="0,20,0,0" x:Name="foodGuide" Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Left"  Text="do this and that" ></TextBlock>
+        </Viewbox>
+       
         <Viewbox Grid.Row="3" HorizontalAlignment="Left" Stretch="Uniform">
             <Label Grid.Row="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="foodCaloryCount" Content="Total Calories: x"></Label>
         </Viewbox>

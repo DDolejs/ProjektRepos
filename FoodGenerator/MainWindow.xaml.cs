@@ -23,9 +23,8 @@ namespace FoodGenerator
     /// </summary>
     public partial class MainWindow : Window
     {
-       
-        public int TotalCalories = 0;
         #region 
+        public int TotalCalories = 0;
         public Food bf = Food.Create(FoodType.Breakfast, "Breakfast", new[] {""}, "", 0);
         public Food br1 = Food.Create(FoodType.Snack, "1st Break", new[] {""}, "", 0);
         public Food lch = Food.Create(FoodType.Lunch, "Lunch", new[] {""}, "", 0);
@@ -38,14 +37,15 @@ namespace FoodGenerator
         {
             
             InitializeComponent();
-           
+            MessageBox.Show("Welcome! \n" +
+                "Click the OK button to randomly generate 5 reciepes. Click on them to reveal the needed ingredients and guides and right-click them to re-roll them.", "How to use",MessageBoxButton.OK, MessageBoxImage.Information);
             breakfast.Content = bf.Name;
             break1.Content = br1.Name;
             lunch.Content = lch.Name;
             break2.Content = br2.Name;
             dinner.Content = dnr.Name;
-
-
+            
+            
 
         }
         private void Window_Closing(object sender, CancelEventArgs e)
@@ -65,15 +65,19 @@ namespace FoodGenerator
                 item.Foreground = Brushes.Black;
             }
             TotalCalories = 0;
+
             do
             {
-                bf = StorageManager.getStorage().FindRandomFiltered(FoodType.Breakfast); //ali je bůh
+                bf = StorageManager.getStorage().FindRandomFiltered(FoodType.Breakfast);
                 br1 = StorageManager.getStorage().FindRandomFiltered(FoodType.Snack);
                 lch = StorageManager.getStorage().FindRandomFiltered(FoodType.Lunch);
                 br2 = StorageManager.getStorage().FindRandomFiltered(FoodType.Snack);
                 dnr = StorageManager.getStorage().FindRandomFiltered(FoodType.Dinner);
 
-            } while (br1 == br2);
+            } while (br1==br2);
+                
+
+            
             
             breakfast.Content = bf.Name;
             break1.Content = br1.Name;
@@ -188,6 +192,7 @@ namespace FoodGenerator
             f.IsEnabled = true;
             f.foodName.Content = fo.Name;
             f.Title = fo.Name;
+            f.foodIngredients.Text = "";
             foreach (string item in fo.Ingredients)
             {
 
@@ -196,7 +201,7 @@ namespace FoodGenerator
                 f.foodIngredients.Text += "\n";
             }
             f.foodGuide.Text = fo.Reciepe;
-            f.foodCaloryCount.Content = $"Total Calories: {fo.CaloryCount}";
+            f.foodCaloryCount.Content = $"Total Calories per serving: {fo.CaloryCount}";
 
             f.Show();
         }
@@ -226,6 +231,58 @@ namespace FoodGenerator
         {
             FillWindow(fd, dnr);
         }
+
+        private void breakfastTitle_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (breakfastCheck.IsChecked == false)
+            {
+                bf = StorageManager.getStorage().FindRandomFiltered(FoodType.Breakfast);
+                breakfast.Content = bf.Name;
+            }
+            
+        }
+
+        private void break1Title_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (break1Check.IsChecked == false)
+            {
+                br1 = StorageManager.getStorage().FindRandomFiltered(FoodType.Snack);
+                break1.Content = br1.Name;
+            }
+
+        }
+
+        private void lunchTitle_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (lunchCheck.IsChecked == false)
+            {
+                lch = StorageManager.getStorage().FindRandomFiltered(FoodType.Lunch);
+                lunch.Content = lch.Name;
+            }
+
+        }
+
+        private void break2Title_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (break2Check.IsChecked == false)
+            {
+                br2 = StorageManager.getStorage().FindRandomFiltered(FoodType.Snack);
+                break2.Content = br2.Name;
+            }
+
+        }
+
+        private void dinnerTitle_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (dinnerCheck.IsChecked == false)
+            {
+                dnr = StorageManager.getStorage().FindRandomFiltered(FoodType.Dinner);
+                dinner.Content = dnr.Name;
+            }
+
+        }
+
+       
     }
 
 

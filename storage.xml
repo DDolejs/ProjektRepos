@@ -1,0 +1,558 @@
+<?xml version="1.0"?>
+<Storage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Foods>
+    <Food>
+      <id>024dbbac-89dc-40e2-9d27-f6cd4fe01a0f</id>
+      <Typ>Breakfast</Typ>
+      <Name>Pancakes</Name>
+      <Ingredients>
+        <string>3/4 cup milk</string>
+        <string>2 tablespoons white vinegar</string>
+        <string>1 cup all-purpose flour</string>
+        <string>2 tablespoons white sugar</string>
+        <string>1 tablespoon baking powder</string>
+        <string>1/2 teaspoon baking soda</string>
+        <string>1/2 teaspoon salt</string>
+        <string>1 egg</string>
+        <string>2 tablespoon melted butter</string>
+        <string>cooking spray</string>       
+      </Ingredients>
+      <Reciepe>
+  Combine milk with vinegar in a medium bowl and set aside for 5 minutes to "sour".
+  Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. 
+  Whisk egg and butter into "soured" milk. Pour the flour mixture into the wet ingredients and whisk until lumps are gone.
+  Heat a large skillet over medium heat, and coat with cooking spray. 
+  Pour 1/4 cupfuls of batter onto the skillet, and cook until bubbles appear on the surface. 
+  Flip with a spatula, and cook until browned on the other side.
+      </Reciepe>
+      <CaloryCount>230</CaloryCount>
+    </Food>
+    <Food>
+      <id>aff19f49-f182-40b2-b410-bbfacca7f1d6</id>
+      <Typ>Snack</Typ>
+      <Name>Classic Savory Deviled Eggs</Name>
+      <Ingredients>
+        <string>6 hard-cooked eggs, halved</string>
+        <string>1/4 cup mayonnaise</string>
+        <string>1 teaspoon rice wine vinegar</string>
+        <string>1/2 teaspoon chopped fresh dill</string>
+        <string>1 teaspoon Dijon mustard </string>
+        <string>1/4 teaspoon garlic powder</string>
+        <string>1/8 teaspoon salt </string>
+        <string>12 sprigs fresh dill (optional) </string>
+      </Ingredients>
+      <Reciepe>
+  Scoop egg yolks into a bowl and set egg whites aside. 
+  Mash yolks, mayonnaise, vinegar, 1/2 teaspoon chopped dill, Dijon mustard, garlic powder, and salt. 
+  Spoon yolk mixture into egg whites. Garnish with dill sprigs. Refrigerate until ready to serve.
+</Reciepe>
+      <CaloryCount>139</CaloryCount>
+    </Food>
+    <Food>
+      <id>d9b95eca-9d8f-44a2-b110-f31e98a2542c</id>
+      <Typ>Lunch</Typ>
+      <Name>Spaghetti Sauce with Ground Beef</Name>
+      <Ingredients>
+        <string>1 pound ground beef </string>
+        <string>1 onion, chopped </string>
+        <string>4 cloves garlic, minced</string>
+        <string>1 small green bell pepper, diced</string>
+        <string>1 (28 ounce) can diced tomatoes </string>
+        <string>1 (16 ounce) can tomato sauce</string>
+        <string>1 (6 ounce) can tomato paste</string>
+        <string>2 teaspoons dried oregano</string>
+        <string>2 teaspoons dried basil</string>
+        <string>1 teaspoon salt </string>
+        <string>teaspoon black pepper</string>            
+      </Ingredients>
+<Reciepe>
+  Combine ground beef, onion, garlic, and green pepper in a large saucepan. 
+  Cook and stir until meat is brown and vegetables are tender. Drain grease.
+
+  Stir diced tomatoes, tomato sauce, and tomato paste into the pan. 
+  Season with oregano, basil, salt, and pepper. Simmer spaghetti sauce for 1 hour, stirring occasionally.
+</Reciepe>
+      <CaloryCount>185</CaloryCount>
+    </Food>
+    <Food>
+      <id>a7c19fe0-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Lunch</Typ>
+      <Name>Basic Italian Bean Soup</Name>
+      <Ingredients>
+        <string>olive oil</string>
+        <string>1 large onion, diced</string>
+        <string>2 cloves garlic, or more to taste</string>
+        <string>2 cups tomato sauce</string>
+        <string>24 ounces prepared cannellini beans</string>
+        <string>1 tablespoon dried basil</string>
+        <string>1/2 teaspoon oregano</string>
+        <string>salt and ground black pepper to taste</string>
+      </Ingredients>
+      <Reciepe>
+  Heat olive oil in a pot over medium-high heat.
+  Cook and stir onion in hot oil until tender, about 5 minutes; add garlic and continue cooking until fragrant, 1 to 2 minutes more.
+
+  Pour tomato sauce into the pot; stir. Add cannelini beans, basil, oregano, salt, and pepper.
+  Bring the mixture to a simmer, reduce heat to medium-low, and cook until the beans are hot, 5 to 7 minutes more.
+      </Reciepe>
+      <CaloryCount>210</CaloryCount>
+    </Food>
+    <Food>
+      <id>ab9b31c6-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Snack</Typ>
+      <Name>Granola Bars</Name>
+      <Ingredients>
+        <string>3 cups quick-cooking oats </string>
+        <string>1 (14 ounce) can sweetened condensed milk </string>
+        <string>2 tablespoons butter, melted</string>
+        <string>1 cup flaked coconut </string>
+        <string>1 cup sliced almonds</string>
+        <string>1 cup miniature semisweet chocolate chips</string>
+        <string>1/2 cup sweetened dried cranberries</string>
+      </Ingredients>
+<Reciepe>
+  Preheat oven to 350 degrees F (175 degrees C). Grease a 9x13 inch pan.
+  
+  In a large bowl, mix together the oats, sweetened condensed milk, butter, coconut, almonds, chocolate chips and cranberries with your hands until well blended. 
+  Press flat into the prepared pan.
+  
+  Bake for 20 to 25 minutes in the preheated oven, depending on how crunchy you want them. 
+  Lightly browned just around the edges will give you moist, chewy bars. 
+  Let cool for 5 minutes, cut into squares then let cool completely before serving.    
+</Reciepe>
+      <CaloryCount>150</CaloryCount>
+    </Food> 
+    <Food>
+      <id>b2962530-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Dinner</Typ>
+      <Name>Chicken Cordon Bleu</Name>
+      <Ingredients>
+        <string>6 skinless, boneless chicken breast halves</string>
+        <string>6 slices Swiss cheese</string>
+        <string>6 slices ham </string>
+        <string>3 tablespoons all-purpose flour</string>
+        <string>1 teaspoon paprika</string>
+        <string>1/2 cup dry white wine </string>
+        <string>1 teaspoon chicken bouillon granules</string>
+        <string>1 tablespoon cornstarch</string>
+        <string>1 cup heavy whipping cream</string>
+      </Ingredients>
+<Reciepe>
+  Pound chicken breasts if they are too thick. 
+  Place a cheese and ham slice on each breast within 1/2 inch of the edges. 
+  Fold the edges of the chicken over the filling, and secure with toothpicks. 
+  Mix the flour and paprika in a small bowl, and coat the chicken pieces.
+  
+  Heat the butter in a large skillet over medium-high heat, and cook the chicken until browned on all sides. 
+  Add the wine and bouillon. 
+  Reduce heat to low, cover, and simmer for 30 minutes, until chicken is no longer pink and juices run clear.
+  
+  Remove the toothpicks, and transfer the breasts to a warm platter. 
+  Blend the cornstarch with the cream in a small bowl, and whisk slowly into the skillet. 
+  Cook, stirring until thickened, and pour over the chicken. Serve warm.   
+</Reciepe>
+      <CaloryCount>584</CaloryCount>
+    </Food>
+    <Food>
+      <id>b9524e4e-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Dinner</Typ>
+      <Name>Baked Salmon</Name>
+      <Ingredients>
+        <string>2 cloves garlic, minced</string>
+        <string>6 tablespoons light olive oil</string>
+        <string>1 teaspoon dried basil</string>
+        <string>1 teaspoon salt</string>
+        <string>1 teaspoon ground black pepper</string>
+        <string>1 tablespoon lemon juice</string>
+        <string>1 tablespoon fresh parsley, chopped</string>
+        <string>2 (6 ounce) fillets salmon</string>
+        <string>1 cup heavy whipping cream</string>
+      </Ingredients>
+<Reciepe>
+  In a medium glass bowl, prepare marinade by mixing garlic, light olive oil, basil, salt, pepper, lemon juice and parsley. 
+  Place salmon fillets in a medium glass baking dish, and cover with the marinade. 
+  Marinate in the refrigerator about 1 hour, turning occasionally.
+  
+  Preheat oven to 375 degrees F (190 degrees C). 
+  
+  Place fillets in aluminum foil, cover with marinade, and seal. 
+  Place sealed salmon in the glass dish, and bake 35 to 45 minutes, until easily flaked with a fork.   
+</Reciepe>
+      <CaloryCount>613</CaloryCount>
+    </Food>
+    <Food>
+      <id>c1d8e7b2-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Snack</Typ>
+      <Name>Soft Chocolate Chip Cookies</Name>
+      <Ingredients>
+        <string>4 1/2 cups all-purpose flour</string>
+        <string>2 teaspoons baking soda</string>
+        <string>2 cups butter, softened</string>
+        <string>1 1/2 cups packed brown sugar</string>
+        <string>1/2 cup white sugar</string>
+        <string>2 (3.4 ounce) packages instant vanilla pudding mix</string>
+        <string>4 eggs</string>
+        <string>2 teaspoons vanilla extract</string>
+        <string>4 cups semisweet chocolate chips</string>
+        <string>2 cups chopped walnuts (optional)</string>
+      </Ingredients>
+<Reciepe>
+  Preheat oven to 350 degrees F (175 degrees C). Sift together the flour and baking soda, set aside. 
+  
+  In a large bowl, cream together the butter, brown sugar, and white sugar. 
+  Beat in the instant pudding mix until blended. Stir in the eggs and vanilla. 
+  Blend in the flour mixture. Finally, stir in the chocolate chips and nuts. 
+  Drop cookies by rounded spoonfuls onto ungreased cookie sheets.  
+  
+  Bake for 10 to 12 minutes in the preheated oven. Edges should be golden brown.   
+</Reciepe>
+      <CaloryCount>177</CaloryCount>
+    </Food>
+    <Food>
+      <id>c77c7972-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Breakfast</Typ>
+      <Name>Scrambled Eggs</Name>
+      <Ingredients>
+        <string>4 eggs</string>
+        <string>1/4 cup milk</string>
+        <string>1 teaspoon salt</string>
+        <string>1 teaspoon ground black pepper</string>
+      </Ingredients>
+<Reciepe>
+  In a medium bowl, whisk together the eggs and milk using a fork. Whisk in the salt and pepper. 
+  
+  Heat a small non-stick pan over medium heat. 
+  Pour the egg mixture into the pan, and cook. Stir, scrape, and cut up the eggs while cooking until no liquid remains.   
+</Reciepe>
+      <CaloryCount>161</CaloryCount>
+    </Food>
+    <Food>
+        <id>ce7a2bca-92ce-11ea-bb37-0242ac130002</id>
+        <Typ>Breakfast</Typ>
+        <Name>Waffles</Name>
+        <Ingredients>
+          <string>2 cups all-purpose flour</string>
+          <string>1 teaspoon salt</string>
+          <string>4 teaspoons baking powder</string>
+          <string>2 tablespoons white sugar</string>
+          <string>2 eggs</string>
+          <string>1 1/2 cups warm milk</string>
+          <string>1/3 cup butter, melted</string>
+          <string>1 teaspoon vanilla extract</string>
+        </Ingredients>
+  <Reciepe>
+    In a large bowl, mix together flour, salt, baking powder and sugar; set aside. 
+    Preheat waffle iron to desired temperature. 
+  
+    In a separate bowl, beat the eggs. 
+    Stir in the milk, butter and vanilla. 
+    Pour the milk mixture into the flour mixture; beat until blended.    
+  
+    Ladle the batter into a preheated waffle iron. 
+    Cook the waffles until golden and crisp. Serve immediately. 
+  </Reciepe>
+        <CaloryCount>379</CaloryCount>
+      </Food>
+    <Food>
+      <id>d679c4de-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Breakfast</Typ>
+      <Name>French Toast</Name>
+      <Ingredients>
+        <string>6 thick slices bread</string>
+        <string>2 eggs</string>
+        <string>2/3 cup milk</string>
+        <string>1/4 teaspoon ground cinnamon (optional)</string>
+        <string>1/4 teaspoon ground nutmeg (optional)</string>
+        <string>1 teaspoon vanilla extract (optional)</string>
+        <string>salt to taste</string>        
+      </Ingredients>
+<Reciepe>
+  Beat together egg, milk, salt, desired spices and vanilla.
+  
+  Heat a lightly oiled griddle or skillet over medium-high heat.     
+  
+  Dunk each slice of bread in egg mixture, soaking both sides. 
+  Place in pan, and cook on both sides until golden. Serve hot. 
+</Reciepe>
+      <CaloryCount>240</CaloryCount>
+    </Food>
+    <Food>
+        <id>e7d3c475-a715-4ea3-a9c2-289749e428e1</id>
+        <Typ>Breakfast</Typ>
+        <Name>Pumpkin Bread</Name>
+        <Ingredients>
+          <string>3 cups canned pumpkin puree </string>
+          <string>1 1/2 cups vegetable oil </string>
+          <string>4 cups white sugar</string>
+          <string>6 eggs</string>
+          <string>4 3/4 cups all-purpose flour</string>
+          <string>1 1/2 teaspoons baking powder</string>
+          <string>1 1/2 teaspoons baking soda</string>
+          <string>1 1/2 salt</string>
+          <string>1 1/2 ground cinnamon</string>
+          <string>1 1/2 ground nutmeg</string>
+          <string>1 1/2 ground cloves</string>
+        </Ingredients>
+<Reciepe>
+  Preheat the oven to 350 degrees F (175 degrees C). Grease and flour three 9x5 inch loaf pans.
+  
+  In a large bowl, mix together the pumpkin, oil, sugar, and eggs. 
+  Combine the flour, baking powder, baking soda, salt, cinnamon, nutmeg, and cloves; stir into the pumpkin mixture until well blended. 
+  Divide the batter evenly between the prepared pans.    
+  
+  Bake in preheated oven for 45 minutes to 1 hour. 
+  The top of the loaf should spring back when lightly pressed.
+ </Reciepe>
+        <CaloryCount>247</CaloryCount>
+      </Food>
+    <Food>
+      <id>835279af-ddb0-4923-b9ac-891b3365a867</id>
+      <Typ>Snack</Typ>
+      <Name>Asian Lettuce Wraps</Name>
+      <Ingredients>
+        <string>16 Boston Bibb or butter lettuce leaves</string>
+        <string>1 pound lean ground beef</string>
+        <string>1 tablespoon cooking oil</string>
+        <string>1 large onion, chopped</string>
+        <string>1/4 cup hoisin sauce</string>
+        <string>2 cloves fresh garlic, minced </string>
+        <string>1 tablespoon soy sauce </string>
+        <string>1 tablespoon rice wine vinegar </string>
+        <string>2 teaspoons minced pickled ginger</string>
+        <string>1 dash Asian chilli pepper sauce, or to taste (optional) </string>
+        <string>1 (8 ounce) can water chestnuts, drained and finely chopped</string>
+        <string> 1 bunch green onions, chopped </string>
+        <string>2 teaspoons Asian (dark) sesame oil</string>
+      </Ingredients>
+<Reciepe>
+  Rinse whole lettuce leaves and pat dry, being careful not tear them. Set aside.
+  
+  Heat a large skillet over medium-high heat. Cook and stir beef and cooking oil in the hot skillet until browned and crumbly, 5 to 7 minutes. 
+  Drain and discard grease; transfer beef to a bowl. 
+  Cook and stir onion in the same skillet used for beef until slightly tender, 5 to 10 minutes. 
+  Stir hoisin sauce, garlic, soy sauce, vinegar, ginger, and chile pepper sauce into onions. 
+  Add water chestnuts, green onions, sesame oil, and cooked beef; cook and stir until the onions just begin to wilt, about 2 minutes.   
+  
+  Arrange lettuce leaves around the outer edge of a large serving platter and pile meat mixture in the center.
+</Reciepe>
+      <CaloryCount>388</CaloryCount>
+    </Food>
+    <Food>
+      <id>db8b1310-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Snack</Typ>
+      <Name>BBQ Meatballs</Name>
+      <Ingredients>
+        <string>1 (16 ounce) package frozen meatballs</string>
+        <string>1 (18 ounce) bottle barbecue sauce</string>
+        <string>1/4 cup ketchup </string>       
+      </Ingredients>
+<Reciepe>
+  Place prepared meatballs, barbeque sauce, and ketchup in a slow cooker. 
+  Let cook on a low heat for 4 hours, stirring occasionally.
+</Reciepe>
+      <CaloryCount>322</CaloryCount>
+    </Food>
+    <Food>
+      <id>e0ac81d0-92ce-11ea-bb37-0242ac130002</id>
+      <Typ>Dinner</Typ>
+      <Name>Indian Chicken Curry</Name>
+      <Ingredients>
+        <string>8 bone-in chicken breast halves, skinless </string>
+        <string>salt and pepper to taste</string>
+        <string>1 tablespoon olive oil</string>  
+        <string>2 onions, peeled and quartered</string>
+        <string>1 teaspoon finely chopped fresh ginger root</string>
+        <string>1 teaspoon crushed garlic</string>
+        <string>1 tablespoon hot (Madras) curry powder</string>
+        <string>1 (15 ounce) can tomato sauce</string>
+        <string>1 (10 ounce) can coconut milk </string>
+        <string>4 whole cloves</string>
+        <string>4 pods cardamom</string>
+        <string>1 cinnamon stick </string>
+      </Ingredients>
+<Reciepe>
+  Rinse chicken and pat dry; season with salt and pepper to taste. 
+  Heat oil in a large skillet over medium high heat, then saute chicken until browned. 
+  Remove chicken from skillet and set aside.
+
+  Saute onions in skillet until translucent; add ginger and garlic and saute until fragrant, then stir in curry powder. 
+
+  Return chicken to skillet and add tomato sauce, coconut milk, cloves, cardamom and cinnamon stick. 
+  Season with salt to taste and stir all together.
+  
+  Reduce heat to low and simmer until chicken is tender and cooked through (no longer pink inside), about 20 to 25 minutes.
+</Reciepe>
+      <CaloryCount>305</CaloryCount>
+    </Food>
+    <Food>
+      <id>3b0aef02-92d1-11ea-bb37-0242ac130002</id>
+      <Typ>Lunch</Typ>
+      <Name>Harvest Salad</Name>
+      <Ingredients>
+        <string>1/2 cup chopped walnuts </string>
+        <string>1 bunch spinach, rinsed and torn into bite-size pieces </string>
+        <string>1/2 cup dried cranberries</string>  
+        <string>1/2 cup crumbled blue cheese</string>
+        <string>2 tomatoes, chopped</string>
+        <string>1 avocado - peeled, pitted and diced</string>
+        <string>1/2 red onion, thinly sliced </string>
+        <string>2 tablespoons red raspberry jam (with seeds)</string>
+        <string>2 tablespoons red wine vinegar</string>
+        <string>1/3 cup walnut oil</string>
+        <string>freshly ground black pepper to taste</string>
+        <string>salt to taste</string>
+      </Ingredients>
+<Reciepe>
+  Preheat oven to 375 degrees F (190 degrees C). 
+  Arrange walnuts in a single layer on a baking sheet. 
+  Toast in oven for 5 minutes, or until nuts begin to brown.
+
+  In a large bowl, toss together the spinach, walnuts, cranberries, blue cheese, tomatoes, avocado, and red onion. 
+
+  In a small bowl, whisk together jam, vinegar, walnut oil, pepper, and salt. 
+  Pour over the salad just before serving, and toss to coat.
+</Reciepe>
+      <CaloryCount>305</CaloryCount>
+    </Food>
+    <Food>
+      <id>0ea1715b-1403-4745-8fca-bb8306f305c8</id>
+      <Typ>Snack</Typ>
+      <Name>Grilled Cheese Sandwich</Name>
+      <Ingredients>
+        <string>4 slices bread</string>
+        <string>2 3/4 teaspoons butter</string>
+        <string>2 slices Cheddar cheese</string>         
+      </Ingredients>
+<Reciepe>
+  Preheat oven to 450 degrees F (230 degrees C).
+
+  Butter one side of 9 slices of bread, and place butter-side down on a baking sheet. 
+  Arrange cheese on each slice of bread. Spread butter on 9 remaining slices of bread, and place them buttered-side up on top of the cheese.
+
+  Bake in preheated oven for 6 to 8 minutes. Flip the sandwiches, and bake an additional 6 to 8 minutes, or until golden brown.
+</Reciepe>
+      <CaloryCount>293</CaloryCount>
+    </Food>
+    <Food>
+      <id>b287d01f-6584-42b0-9984-52f4b51f83b6</id>
+      <Typ>Lunch</Typ>
+      <Name>Ukrainian Red Borscht Soup</Name>
+      <Ingredients>
+        <string>1 (16 ounce) package pork sausage </string>
+        <string>3 medium beets, peeled and shredded </string>
+        <string>3 carrots, peeled and shredded</string>
+        <string>3 medium baking potatoes, peeled and cubed </string>
+        <string>1 tablespoon vegetable oil</string>
+        <string>1 medium onion, chopped</string>
+        <string>1 (6 ounce) can tomato paste </string>
+        <string>3/4 cup water</string>
+        <string>1/2 medium head cabbage, cored and shredded</string>
+        <string>1 (8 ounce) can diced tomatoes, drained</string>
+        <string>3 cloves garlic, minced </string>
+        <string>salt and pepper to taste</string>
+        <string>1 teaspoon sour cream, for topping</string>
+        <string>1 tablespoon chopped fresh parsley for garnish</string>
+      </Ingredients>
+<Reciepe>
+  Crumble the sausage (if using) into a skillet over medium-high heat. 
+  Cook and stir until no longer pink. Remove from the heat and set aside.
+
+  Fill a large pot halfway with water(about 2 quarts), and bring to a boil. Add the sausage, and cover the pot. Return to a boil.
+  Add the beets, and cook until they have lost their color. Add the carrots and potatoes, and cook until tender, about 15 minutes.
+  Add the cabbage, and the can of diced tomatoes.
+  
+  Heat the oil in a skillet over medium heat. Add the onion, and cook until tender. 
+  Stir in the tomato paste and water until well blended. Transfer to the pot.
+  Add the raw garlic to the soup, cover and turn off the heat. Let stand for 5 minutes. 
+  Taste, and season with salt, pepper and sugar.
+</Reciepe>
+<CaloryCount>257</CaloryCount>
+    </Food>
+    <Food>
+      <id>43df5e20-9d22-499f-bbe5-20ee73a25ed7</id>
+      <Typ>Lunch</Typ>
+      <Name>Chili</Name>
+      <Ingredients>
+        <string>2 pounds lean ground beef </string>
+        <string>1 (46 fluid ounce) can tomato juice </string>
+        <string>1 (29 ounce) can tomato sauce</string>
+        <string>1 (15 ounce) can kidney beans, drained and rinsed</string>
+        <string>1 (15 ounce) can pinto beans, drained and rinsed</string>
+        <string>1 1/2 cups chopped onion</string>
+        <string>1/4 cup chopped green bell pepper</string>
+        <string>1/8 teaspoon ground cayenne pepper </string>
+        <string>1/2 teaspoon white sugar</string>
+        <string>1/2 teaspoon dried oregano</string>
+        <string>1/2 teaspoon ground black pepper </string>
+        <string>1 teaspoon salt </string>
+        <string>1 1/2 teaspoons ground cumin </string>
+        <string>1/4 cup chili powder </string>
+      </Ingredients>
+<Reciepe>
+  Place ground beef in a large, deep skillet. Cook over medium-high heat until evenly brown. Drain, and crumble.
+
+  In a large pot over high heat combine the ground beef, tomato juice, tomato sauce, kidney beans, pinto beans, onions, bell pepper, cayenne pepper, sugar, oregano, ground black pepper, salt, cumin and chili powder. 
+  Bring to a boil, then reduce heat to low. Simmer for 1 1/2 hours. 
+  (Note: If using a slow cooker, set on low, add ingredients, and cook for 8 to 10 hours.)
+</Reciepe>
+<CaloryCount>305</CaloryCount>
+    </Food>
+    <Food>
+      <id>38ffd6e6-56d6-49fd-b994-34e59bd859e1</id>
+      <Typ>Dinner</Typ>
+      <Name>Baked Macaroni and Cheese</Name>
+      <Ingredients>
+        <string>1 (12 ounce) package macaroni </string>
+        <string>1 egg </string>
+        <string>2 cups milk </string>
+        <string>2 tablespoons butter, melted</string>
+        <string>2 1/2 cups shredded Cheddar cheese </string>
+        <string>salt and pepper to taste </string>
+      </Ingredients>
+<Reciepe>
+  Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a 2-quart baking dish.
+
+  In a large pot of salted water, lightly boil the macaroni for about 5 minutes until half-cooked.
+  
+  Whisk the egg and milk together in a large cup. Add butter and cheese to the egg and milk. Stir well.
+  
+  Place the lightly cooked macaroni in the prepared baking dish. Pour the egg and cheese liquid over the macaroni, sprinkle with salt and pepper, and stir well. 
+  Press the mixture evenly around the baking dish.
+  
+  Bake uncovered, for 30 to 40 minutes, or until the top is brown.      
+</Reciepe>
+<CaloryCount>305</CaloryCount>
+    </Food>
+    <Food>
+      <id>b350667c-3e18-4b85-8afd-ecd50c9c127b</id>
+      <Typ>Dinner</Typ>
+      <Name>Quick Fish Tacos</Name>
+      <Ingredients>
+        <string>1/4 cup reduced-fat sour cream</string>
+        <string>2 tablespoons lime juice</string>
+        <string>salt and ground black pepper to taste</string>
+        <string>1 jalapeno pepper, halved lengthwise</string>
+        <string>2 1/2 cups shredded red cabbage</string>
+        <string>4 green onions, thinly sliced</string>
+        <string>2 tablespoons olive oil</string>
+        <string>1 pound tilapia fillets, cut into strips</string>
+        <string>8 (6 inch) flour tortillas</string>
+        <string>1/2 cup chopped fresh cilantro</string>
+      </Ingredients>
+<Reciepe>
+  Mix sour cream and lime juice together in a large bowl; season with salt and black pepper. 
+  Reserve about half the mixture in another bowl for serving. Mince half the jalapeno pepper; save other half for later. 
+  Toss cabbage, green onions, and minced jalapeno half in remaining sour cream mixture until slaw is well mixed. 
+
+  Heat olive oil and remaining jalapeno half in a large skillet over medium heat; swirl oil to coat skillet evenly. 
+  Season tilapia fillets with salt and pepper. Pan-fry fish strips in the skillet in 2 batches until fish is golden brown and easily flaked with a fork, 5 to 6 minutes. 
+  Discard jalapeno half. 
+  
+  Heat tortillas in the microwave on high until warm, 20 to 30 seconds. 
+  
+  Serve fish in warmed tortillas topped with cabbage slaw, reserved sour cream mixture, and cilantro.     
+</Reciepe>
+<CaloryCount>416</CaloryCount>
+    </Food>
+  </Foods>
+</Storage>
